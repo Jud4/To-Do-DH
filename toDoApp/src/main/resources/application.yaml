@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: toDoApp
+  datasource:
+    url: jdbc:h2:mem:to-do-db
+    username: user-todo
+    password: todoNister
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
