@@ -13,6 +13,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { TaskListComponent } from './task-list/task-list.component';
 import { TaskFormComponent } from './task-form/task-form.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -31,7 +32,8 @@ import { TaskFormComponent } from './task-form/task-form.component';
     MatButtonModule,
     MatSelectModule,
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    HttpClientModule,
   ],
   providers: [TaskFacade, TaskService],
   exports: [
